@@ -52,29 +52,29 @@
 
 
 // 4 Default parameters (параметры по умолчанию)
-const sum = (a = 40, b = a * 2) => a + b
-console.log(sum(40, 2))  
-console.log(sum())
+//const sum = (a = 40, b = a * 2) => a + b
+//console.log(sum(40, 2))  
+//console.log(sum())
 
-function sumAll(...all) {
-  let result = 0
-  for (let num of all) {
-    result += num
-  }
-  return result  
-}
+//function sumAll(...all) {
+//  let result = 0
+//  for (let num of all) {
+//    result += num
+//  }
+//  return result  
+//}
 
-const res = sumAll (1, 2, 3, 4, 5, 6, 7)
-console.log(res)
+//const res = sumAll (1, 2, 3, 4, 5, 6, 7)
+//console.log(res)
 
 
-// 5 Closures (замыкания)
-function creatMember(name) {
-  return function (lastName) {
-    console.log(name + lastName)
-  }
-}
+//// 5 Closures (замыкания)
+//function creatMember(name) {
+//  return function (lastName) {
+//    console.log(name + lastName)
+//  }
+//}
 
-const logWithLastName = creatMember('Timur')
-console.log(logWithLastName('Birgalin'))
-console.log(logWithLastName('Sokolov'))
+//const logWithLastName = creatMember('Timur')
+//console.log(logWithLastName('Birgalin'))
+//console.log(logWithLastName('Sokolov'))
