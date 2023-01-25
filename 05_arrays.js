@@ -15,7 +15,7 @@ function addItemToEnd() {
   
 }
 
-//Method - if we use a function in context of object then it's a method 
+//Method - if we use a function in context of object then it's a method / Methods are functions that are stored as object properties.
 //cars.push('Renault') //push - is a method that adds new items to the end of an object (array is also an object)
 //cars.unshift('Lada') //this one adds new items to the start of an object
 //const firstCar = cars.shift() //shift is a method that deletes first item of an array yet we can work with this deleted item. For example, we can add it as a value to our new variable as you can see in this case.
@@ -78,20 +78,20 @@ function addItemToEnd() {
 
 //'Reduce' method. Решим задачу - сложить бюджет чуваков, у которых он выше 2000 (работаем с объектом 'People')
 
-const people = [
-  {name: 'Timur', budget: 4200},
-  {name: 'Elena', budget: 3500},
-  {name: 'Kseniia', budget: 1700}
-]
+//const people = [
+//  {name: 'Timur', budget: 4200},
+//  {name: 'Elena', budget: 3500},
+//  {name: 'Kseniia', budget: 1700}
+//]
 
-const allBudget = people
-.filter (person => person.budget > 2000)
-.reduce((acc, person) => {
-  acc += person.budget
-  return acc
-}, 0)
+//const allBudget = people
+//.filter (person => person.budget > 2000)
+//.reduce((acc, person) => {
+//  acc += person.budget
+//  return acc
+//}, 0)
 
-console.log(allBudget)
+//console.log(allBudget)
 
 
 
