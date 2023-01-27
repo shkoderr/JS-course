@@ -69,12 +69,12 @@
 
 
 //// 5 Closures (замыкания)
-//function creatMember(name) {
+//function createMember(name) {
 //  return function (lastName) {
 //    console.log(name + lastName)
 //  }
 //}
 
-//const logWithLastName = creatMember('Timur')
+//const logWithLastName = createMember('Timur')
 //console.log(logWithLastName('Birgalin'))
 //console.log(logWithLastName('Sokolov'))
